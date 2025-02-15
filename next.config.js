@@ -1,10 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
+  output: "export", // Enables static export
   images: {
-    unoptimized: true,
+    unoptimized: true, // Fixes image optimization issues in static builds
   },
-  basePath: "/devansh-portfolio", // Change this to your repo name
 };
 
 module.exports = nextConfig;
